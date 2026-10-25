@@ -1,0 +1,13 @@
+gender:
+  name: "Gender"
+  group_a:
+    label: "Male-associated"
+    terms: ["man", "he", "his", "husband", "father", "brother", "son", "male"]
+  group_b:
+    label: "Female-associated"
+    terms: ["woman", "she", "her", "wife", "mother", "sister", "daughter", "female"]
+
+attributes:
+  name: "Occupations"
+  terms: ["engineer", "nurse", "programmer", "teacher", "doctor", "receptionist",
+          "CEO", "secretary", "scientist", "babysitter"]
