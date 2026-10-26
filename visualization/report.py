@@ -17,6 +17,7 @@ from pathlib import Path
 import sys
 
 import numpy as np
+from sympy import group
 import yaml
 import matplotlib
 
@@ -227,3 +228,13 @@ def main():
 
 if __name__ == "__main__":
     main()
+def compute_rows(config, detector):
+    ...
+    rows = []
+    for target, vector in zip(targets, vectors):
+        ...
+        rows.append(...)
+    
+    # Sort ascending so the most group-B-leaning concept sits at the bottom
+    rows.sort(key=lambda row: row["score"], reverse=True)  # <-- THIS LINE (line ~76)
+    return rows, group
