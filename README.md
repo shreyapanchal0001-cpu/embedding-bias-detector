@@ -120,7 +120,9 @@ embedding-bias-detector/
 ├── examples/
 │   └── run_first_test.py # End-to-end demonstration script
 ├── tests/                # Test suite (in progress)
-├── visualization/        # Charting module (planned)
+├── visualization/
+│   ├── report.py         # Dashboard renderer
+│   └── bias_report.png   # Generated output
 ├── requirements.txt
 ├── LICENSE
 └── README.md
